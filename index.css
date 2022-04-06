@@ -1,0 +1,79 @@
+#titulo1{
+    position: relative;
+    margin: 2%;
+    font-size: 200%;
+}
+body{
+    grid-area: 
+    "a a"
+    "b c"
+    ;
+    background-color: #D1B787;
+}
+
+#about{
+    display: flex;
+	justify-content: center;
+}
+
+#yo_pic{
+    position: relative;
+    margin: 2%;
+}
+
+.biografia{
+    position: relative;
+    margin: 2%;
+    font-size:200%;
+}
+
+
+#aboutsection{
+    text-align: center;
+    grid-area: a;
+}
+
+#framerightup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#frameleftbuttom{
+    position: absolute;
+    left: 0%;
+    height: 100%;
+}
+
+#centerpic{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h2{
+    position: relative;
+    margin: 0%;
+    font-size: 400%;
+}
+
+.gustos_pic{
+    width:300px;
+    height:200px;
+}
+
+#gustostext{
+    font-size: 300%;
+    font-style: oblique;
+    margin: 50px;
+}
+
+#inputFibo{
+    font-size: 150%;
+    font-style: oblique;
+    margin: 50px;
+}  
+.boton{
+    width:400px;
+    height:200px;
+}
