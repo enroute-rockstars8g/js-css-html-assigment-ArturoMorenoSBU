@@ -74,6 +74,30 @@ h2{
     margin: 50px;
 }  
 .boton{
-    width:400px;
-    height:200px;
+    width:100px;
+    height:45px;
+}
+
+#fiboContainer{
+    width:200px;
+    height:100px;
+}
+
+.numerosBonitos{
+    font-size: 150%;
+    background-color: rgb(13, 218, 241);
+    color: rgb(3, 3, 4);
+    font-weight: bold;
+    padding-right: 50%;
+    border-radius: 3px;
+}
+
+#inputFacto{
+    font-size: 150%;
+    font-style: oblique;
+    margin: 50px;
+}
+#bottom{
+    display: flex;
+    text-align: center;
 }
